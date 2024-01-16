@@ -7,6 +7,9 @@ header {
     padding: 30px 80px;
 }
 
+/* Navbar-styles */
+
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -43,13 +46,17 @@ nav li {
     cursor: pointer;
 }
 
+/* Banner-section-styles */
+
 .banner-section {
     text-align: center;
     margin-top: 100px;
-    background-image: url(Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 16px;
+    background: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.20)), url(Group\ 13\ \(1\)\ \(1\).png);
     border-radius: 16px;
     height: 500px;
     width: 1200px;
+    max-width: 1440px;
     border-radius: 30px;
     margin-left: 100px;
 
@@ -78,13 +85,16 @@ nav li {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 26px; 
+    line-height: 26px;
 }
-.btn-primary{
+
+/* button-styles */
+
+.btn-content {
     display: inline-flex;
     padding: 10px 24px;
     align-items: flex-start;
-    gap: 8px;
+    gap: 15px;
     border-radius: 41px;
     border-color: white;
     cursor: pointer;
@@ -92,7 +102,10 @@ nav li {
     margin: 30px;
     margin-top: 0%;
 }
-.btn-one, .btn-two, .btn-three{
+
+.btn-one,
+.btn-two,
+.btn-three {
     padding: 10px 24px;
     border-radius: 8px;
     gap: 10px;
@@ -101,13 +114,83 @@ nav li {
     cursor: pointer;
 
 }
-.btn-four{
+
+.btn-primary {
     padding: 10px 24px;
     border-radius: 8px;
     gap: 10px;
     background-color: #FF5400;
     border: none;
+
     color: white;
     cursor: pointer;
 
+}
+
+/* Main section styles */
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.tours-container {
+    display: flex;
+    /* align-items: center; */
+    padding: 20px 85px;
+    gap: 50px;
+}
+
+.tours-img {
+    width: 540px;
+    height: 550px;
+    flex-shrink: 0;
+}
+
+.tours-content {
+
+    padding: 50px;
+}
+
+.tours-title {
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.tours-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+
+}
+
+.tours-description-list {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+
+}
+
+
+
+
+
+
+/* Responsive media queries */
+
+@media screen and (max-width: 576px) {
+
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
 }
