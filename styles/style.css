@@ -25,7 +25,6 @@ nav {
 
 .logo-title {
     color: #2a2828;
-    font-family: Mulish;
     font-size: 36px;
     font-style: normal;
     font-weight: 800;
@@ -177,6 +176,48 @@ main {
 
 }
 
+/* Destination styles */
+
+.destination-content{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* collage styles */
+
+.row{
+    align-items: center;
+    margin-left: 150px;
+    /* display: flex; */
+    gap: 15px;
+    margin-bottom: 5px;
+}
+.three-img{
+    /* margin-top: 5px;
+    margin-bottom: 5px; */
+    /* padding: 10px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -188,9 +229,51 @@ main {
 
     header {
         padding: 20px;
+        /* margin-left: 60px; */
+
     }
 
-    nav {
+    .logo {
+        align-items: center;
+        margin-left: 50px;
+
+    }
+
+    .logo-title {
+        text-align: center;
+    }
+
+    nav>ul {
+        margin-left: 100px;
+    }
+
+    nav,
+    .tours-container {
         flex-direction: column;
     }
+    .banner-section {
+        height: 100%;
+        width: 100%;
+        margin-right: 100px;}
+
+    .btn-one,
+    .btn-two,
+    .btn-three {
+        flex-direction: column;
+
+    }
+
+    .tours-content {
+        padding: 30px;
+        /* text-align: center; */
+    }
+    .tours-img{
+        height: 100%;
+        width: 100%;
+        padding: 0;
+        margin-right: 100px;
+
+    }
+
+
 }
