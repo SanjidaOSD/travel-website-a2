@@ -340,6 +340,44 @@ main {
     text-align: center;
     margin-top: 30px;
 }
+
+/* The beautiful places */
+.caption{
+    color: #232324;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 50px;
+
+}
+
+.all-places {
+    margin: 0;
+    padding: 5px;
+    background-color: lightgray;
+    margin-bottom: 80px;
+  }
+  .all-places > h1{
+    text-align: center;
+  }
+  
+  .all-places > h1, .place {
+    margin: 10px;
+    padding: 5px;
+  }
+  .all-places h2{
+    font-size: 50px;
+  }
+  .place {
+    background: white;
+  }
+  
+  .place > h2, p {
+    margin: 4px;
+    font-size: 90%;
+  }
+
+/* footer sections */
 .footer-content{
     align-items: center;
     justify-content: space-evenly;
@@ -357,7 +395,17 @@ main {
 .finishing{
     /* align-items: center; */
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(233, 184, 168);
+    color: white;
+    margin-bottom: 50px;
+    width: 1440px;
 }
 
 
