@@ -320,6 +320,25 @@ main {
     cursor: pointer;
 
 }
+.offer{
+    border-radius: 8px;
+    background-color: #FF5400;
+    color: white;
+    width: 250px;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 200px;
+    margin-left: 300px;
+    transform: rotate(-19.628deg);
+}
+.offer h2{
+    font-size: 2rem;
+    margin: 0px;
+}
+.offer p{
+    font-size: 1.5rem;
+}
 .last-conteiner{
     align-items: center;
     width: 1440px;
@@ -485,6 +504,12 @@ footer {
         margin-right: 100px;
 
     }
+    .img-collage img{
+        flex-direction: column;
+    }
+  .choose-container{
+    flex-direction: column;
+  }
 
 
 }
