@@ -289,7 +289,37 @@ main {
     border-radius: 20px;
 }
 
+/* newsletter sections */
+.tours-img{
+    margin-left: 50px;
+}
+/* form styles */
 
+.form-section{
+    border: 2px solid gray;
+}
+.form input{
+    /* text-align: center; */
+    align-items: center;
+    width: 393px;
+    height: 52px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border:none;
+    cursor: pointer;
+}
+.btn-submit{
+    align-items: center;
+    width: 393px;
+    height: 52px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background: #FF5400;
+    border:none;
+    cursor: pointer;
+
+}
 
 
 
